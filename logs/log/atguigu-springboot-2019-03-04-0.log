@@ -1,0 +1,345 @@
+2019-03-04 00:00:34.159 [ http-nio-192.168.81.1-8079-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-04 00:02:23.355 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2019-03-04 00:02:23.369 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2019-03-04 00:02:23.369 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalCommonAnnotationProcessor
+2019-03-04 00:02:23.371 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalPersistenceAnnotationProcessor
+2019-03-04 00:02:23.372 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.event.internalEventListenerProcessor
+2019-03-04 00:02:23.373 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.event.internalEventListenerFactory
+2019-03-04 00:02:23.379 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer3 : 18 ] - ****:6
+2019-03-04 00:02:23.401 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer : 18 ] - bean count:6
+2019-03-04 00:02:23.416 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 50 ] - Starting DemoApplication on LAPTOP-DKU2JHJT with PID 3212 (F:\IDEA_WorkSpace\demo\target\classes started by zhaoyue in F:\IDEA_WorkSpace\demo)
+2019-03-04 00:02:23.417 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 679 ] - The following profiles are active: dev
+2019-03-04 00:02:30.551 [ restartedMain ] - [ INFO  ] [ com.example.demo.tomcat.WebServerConfiguration : 26 ] - 自定义配置tomcat启用
+2019-03-04 00:02:31.086 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-192.168.81.1-8079"]
+2019-03-04 00:02:31.111 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-03-04 00:02:31.112 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-04 00:02:31.143 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\apache-maven-3.6.0\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;%CATALINA_HOME%\bin;%CATALINA_HOME%\lib;E:\nodeJs\安装目录\;E:\Git\cmd;F:\Redis\安装目录\;F:\MongoDB\bin;C:\Users\zhaoyue\AppData\Local\Microsoft\WindowsApps;;D:\IntelliJIDEA2018.3.4\IntelliJ IDEA 2018.3.4\bin;;C:\Users\zhaoyue\AppData\Roaming\npm;.]
+2019-03-04 00:02:31.752 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-03-04 00:02:33.317 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2019-03-04 00:02:33.758 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-04 00:02:33.942 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 46 ] - HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-04 00:02:33.945 [ restartedMain ] - [ INFO  ] [ org.hibernate.cfg.Environment : 213 ] - HHH000206: hibernate.properties not found
+2019-03-04 00:02:34.430 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 49 ] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-04 00:02:34.863 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 157 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-03-04 00:02:41.775 [ restartedMain ] - [ INFO  ] [ org.mongodb.driver.cluster : 71 ] - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-03-04 00:02:41.905 [ cluster-ClusterId{value='5c7bfaa18948770c8c12ac8f', description='null'}-localhost:27017 ] - [ INFO  ] [ org.mongodb.driver.connection : 71 ] - Opened connection [connectionId{localValue:1, serverValue:27}] to localhost:27017
+2019-03-04 00:02:41.915 [ cluster-ClusterId{value='5c7bfaa18948770c8c12ac8f', description='null'}-localhost:27017 ] - [ INFO  ] [ org.mongodb.driver.cluster : 71 ] - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7193974}
+2019-03-04 00:02:44.220 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-192.168.81.1-8079"]
+2019-03-04 00:02:44.270 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 59 ] - Started DemoApplication in 22.579 seconds (JVM running for 26.098)
+2019-03-04 00:02:44.274 [ restartedMain ] - [ INFO  ] [ c.e.demo.extendedanalysis.MyCommandLineRunner : 21 ] - 应用已启动
+2019-03-04 00:02:44.277 [ restartedMain ] - [ INFO  ] [ com.example.demo.event.MyEventHandle : 22 ] - MyEventHandle接收到事件：class com.example.demo.event.MyApplicationEvent
+2019-03-04 00:02:44.278 [ restartedMain ] - [ INFO  ] [ com.example.demo.event.MyApplicationListener : 19 ] - MyApplicationListener接收到事件：class com.example.demo.event.MyApplicationEvent
+2019-03-04 00:02:56.006 [ http-nio-192.168.81.1-8079-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-04 00:03:37.852 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2019-03-04 00:03:37.868 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2019-03-04 00:03:37.869 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalCommonAnnotationProcessor
+2019-03-04 00:03:37.870 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalPersistenceAnnotationProcessor
+2019-03-04 00:03:37.871 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.event.internalEventListenerProcessor
+2019-03-04 00:03:37.871 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.event.internalEventListenerFactory
+2019-03-04 00:03:37.876 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer3 : 18 ] - ****:6
+2019-03-04 00:03:37.887 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer : 18 ] - bean count:6
+2019-03-04 00:03:37.898 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 50 ] - Starting DemoApplication on LAPTOP-DKU2JHJT with PID 18796 (F:\IDEA_WorkSpace\demo\target\classes started by zhaoyue in F:\IDEA_WorkSpace\demo)
+2019-03-04 00:03:37.898 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 679 ] - The following profiles are active: dev
+2019-03-04 00:03:45.026 [ restartedMain ] - [ INFO  ] [ com.example.demo.tomcat.WebServerConfiguration : 26 ] - 自定义配置tomcat启用
+2019-03-04 00:03:45.534 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-192.168.81.1-8079"]
+2019-03-04 00:03:45.560 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-03-04 00:03:45.560 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-04 00:03:45.585 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\apache-maven-3.6.0\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;%CATALINA_HOME%\bin;%CATALINA_HOME%\lib;E:\nodeJs\安装目录\;E:\Git\cmd;F:\Redis\安装目录\;F:\MongoDB\bin;C:\Users\zhaoyue\AppData\Local\Microsoft\WindowsApps;;D:\IntelliJIDEA2018.3.4\IntelliJ IDEA 2018.3.4\bin;;C:\Users\zhaoyue\AppData\Roaming\npm;.]
+2019-03-04 00:03:46.152 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-03-04 00:03:47.684 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2019-03-04 00:03:48.133 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-04 00:03:48.287 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 46 ] - HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-04 00:03:48.290 [ restartedMain ] - [ INFO  ] [ org.hibernate.cfg.Environment : 213 ] - HHH000206: hibernate.properties not found
+2019-03-04 00:03:48.755 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 49 ] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-04 00:03:49.186 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 157 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-03-04 00:03:56.434 [ restartedMain ] - [ INFO  ] [ org.mongodb.driver.cluster : 71 ] - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-03-04 00:03:56.555 [ cluster-ClusterId{value='5c7bfaec894877496c70f5f3', description='null'}-localhost:27017 ] - [ INFO  ] [ org.mongodb.driver.connection : 71 ] - Opened connection [connectionId{localValue:1, serverValue:28}] to localhost:27017
+2019-03-04 00:03:56.565 [ cluster-ClusterId{value='5c7bfaec894877496c70f5f3', description='null'}-localhost:27017 ] - [ INFO  ] [ org.mongodb.driver.cluster : 71 ] - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5804061}
+2019-03-04 00:03:59.050 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-192.168.81.1-8079"]
+2019-03-04 00:03:59.111 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 59 ] - Started DemoApplication in 22.928 seconds (JVM running for 26.555)
+2019-03-04 00:03:59.116 [ restartedMain ] - [ INFO  ] [ c.e.demo.extendedanalysis.MyCommandLineRunner : 21 ] - 应用已启动
+2019-03-04 00:03:59.120 [ restartedMain ] - [ INFO  ] [ com.example.demo.event.MyEventHandle : 22 ] - MyEventHandle接收到事件：class com.example.demo.event.MyApplicationEvent
+2019-03-04 00:03:59.121 [ restartedMain ] - [ INFO  ] [ com.example.demo.event.MyApplicationListener : 19 ] - MyApplicationListener接收到事件：class com.example.demo.event.MyApplicationEvent
+2019-03-04 00:04:27.349 [ http-nio-192.168.81.1-8079-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-04 00:04:51.195 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2019-03-04 00:04:51.206 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2019-03-04 00:04:51.206 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalCommonAnnotationProcessor
+2019-03-04 00:04:51.207 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalPersistenceAnnotationProcessor
+2019-03-04 00:04:51.207 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.event.internalEventListenerProcessor
+2019-03-04 00:04:51.208 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.event.internalEventListenerFactory
+2019-03-04 00:04:51.214 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer3 : 18 ] - ****:6
+2019-03-04 00:04:51.223 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer : 18 ] - bean count:6
+2019-03-04 00:04:51.234 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 50 ] - Starting DemoApplication on LAPTOP-DKU2JHJT with PID 22548 (F:\IDEA_WorkSpace\demo\target\classes started by zhaoyue in F:\IDEA_WorkSpace\demo)
+2019-03-04 00:04:51.235 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 679 ] - The following profiles are active: dev
+2019-03-04 00:04:58.375 [ restartedMain ] - [ INFO  ] [ com.example.demo.tomcat.WebServerConfiguration : 26 ] - 自定义配置tomcat启用
+2019-03-04 00:04:58.910 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-192.168.81.1-8079"]
+2019-03-04 00:04:58.941 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-03-04 00:04:58.942 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-04 00:04:58.972 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\apache-maven-3.6.0\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;%CATALINA_HOME%\bin;%CATALINA_HOME%\lib;E:\nodeJs\安装目录\;E:\Git\cmd;F:\Redis\安装目录\;F:\MongoDB\bin;C:\Users\zhaoyue\AppData\Local\Microsoft\WindowsApps;;D:\IntelliJIDEA2018.3.4\IntelliJ IDEA 2018.3.4\bin;;C:\Users\zhaoyue\AppData\Roaming\npm;.]
+2019-03-04 00:04:59.564 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-03-04 00:05:01.058 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2019-03-04 00:05:01.513 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-04 00:05:01.671 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 46 ] - HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-04 00:05:01.674 [ restartedMain ] - [ INFO  ] [ org.hibernate.cfg.Environment : 213 ] - HHH000206: hibernate.properties not found
+2019-03-04 00:05:02.091 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 49 ] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-04 00:05:02.519 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 157 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-03-04 00:05:09.211 [ restartedMain ] - [ INFO  ] [ org.mongodb.driver.cluster : 71 ] - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-03-04 00:05:09.340 [ cluster-ClusterId{value='5c7bfb358948775814b955ee', description='null'}-localhost:27017 ] - [ INFO  ] [ org.mongodb.driver.connection : 71 ] - Opened connection [connectionId{localValue:1, serverValue:29}] to localhost:27017
+2019-03-04 00:05:09.351 [ cluster-ClusterId{value='5c7bfb358948775814b955ee', description='null'}-localhost:27017 ] - [ INFO  ] [ org.mongodb.driver.cluster : 71 ] - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7139714}
+2019-03-04 00:05:11.558 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-192.168.81.1-8079"]
+2019-03-04 00:05:11.615 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 59 ] - Started DemoApplication in 22.585 seconds (JVM running for 26.739)
+2019-03-04 00:05:11.620 [ restartedMain ] - [ INFO  ] [ c.e.demo.extendedanalysis.MyCommandLineRunner : 21 ] - 应用已启动
+2019-03-04 00:05:11.623 [ restartedMain ] - [ INFO  ] [ com.example.demo.event.MyEventHandle : 22 ] - MyEventHandle接收到事件：class com.example.demo.event.MyApplicationEvent
+2019-03-04 00:05:11.624 [ restartedMain ] - [ INFO  ] [ com.example.demo.event.MyApplicationListener : 19 ] - MyApplicationListener接收到事件：class com.example.demo.event.MyApplicationEvent
+2019-03-04 00:05:22.197 [ http-nio-192.168.81.1-8079-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-04 00:06:22.682 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2019-03-04 00:06:22.691 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2019-03-04 00:06:22.692 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalCommonAnnotationProcessor
+2019-03-04 00:06:22.692 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalPersistenceAnnotationProcessor
+2019-03-04 00:06:22.693 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.event.internalEventListenerProcessor
+2019-03-04 00:06:22.694 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.event.internalEventListenerFactory
+2019-03-04 00:06:22.698 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer3 : 18 ] - ****:6
+2019-03-04 00:06:22.707 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer : 18 ] - bean count:6
+2019-03-04 00:06:22.717 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 50 ] - Starting DemoApplication on LAPTOP-DKU2JHJT with PID 9600 (F:\IDEA_WorkSpace\demo\target\classes started by zhaoyue in F:\IDEA_WorkSpace\demo)
+2019-03-04 00:06:22.717 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 679 ] - The following profiles are active: dev
+2019-03-04 00:06:30.620 [ restartedMain ] - [ INFO  ] [ com.example.demo.tomcat.WebServerConfiguration : 26 ] - 自定义配置tomcat启用
+2019-03-04 00:06:31.167 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-192.168.81.1-8079"]
+2019-03-04 00:06:31.198 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-03-04 00:06:31.200 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-04 00:06:31.224 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\apache-maven-3.6.0\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;%CATALINA_HOME%\bin;%CATALINA_HOME%\lib;E:\nodeJs\安装目录\;E:\Git\cmd;F:\Redis\安装目录\;F:\MongoDB\bin;C:\Users\zhaoyue\AppData\Local\Microsoft\WindowsApps;;D:\IntelliJIDEA2018.3.4\IntelliJ IDEA 2018.3.4\bin;;C:\Users\zhaoyue\AppData\Roaming\npm;.]
+2019-03-04 00:06:31.850 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-03-04 00:06:33.500 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2019-03-04 00:06:33.955 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-04 00:06:34.153 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 46 ] - HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-04 00:06:34.157 [ restartedMain ] - [ INFO  ] [ org.hibernate.cfg.Environment : 213 ] - HHH000206: hibernate.properties not found
+2019-03-04 00:06:34.625 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 49 ] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-04 00:06:35.283 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 157 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-03-04 00:06:43.963 [ restartedMain ] - [ INFO  ] [ org.mongodb.driver.cluster : 71 ] - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-03-04 00:06:44.103 [ cluster-ClusterId{value='5c7bfb938948772580d97de9', description='null'}-localhost:27017 ] - [ INFO  ] [ org.mongodb.driver.connection : 71 ] - Opened connection [connectionId{localValue:1, serverValue:30}] to localhost:27017
+2019-03-04 00:06:44.118 [ cluster-ClusterId{value='5c7bfb938948772580d97de9', description='null'}-localhost:27017 ] - [ INFO  ] [ org.mongodb.driver.cluster : 71 ] - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=8886729}
+2019-03-04 00:06:47.026 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-192.168.81.1-8079"]
+2019-03-04 00:06:47.083 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 59 ] - Started DemoApplication in 26.726 seconds (JVM running for 31.225)
+2019-03-04 00:06:47.088 [ restartedMain ] - [ INFO  ] [ c.e.demo.extendedanalysis.MyCommandLineRunner : 21 ] - 应用已启动
+2019-03-04 00:06:47.092 [ restartedMain ] - [ INFO  ] [ com.example.demo.event.MyEventHandle : 22 ] - MyEventHandle接收到事件：class com.example.demo.event.MyApplicationEvent
+2019-03-04 00:06:47.093 [ restartedMain ] - [ INFO  ] [ com.example.demo.event.MyApplicationListener : 19 ] - MyApplicationListener接收到事件：class com.example.demo.event.MyApplicationEvent
+2019-03-04 00:06:51.710 [ http-nio-192.168.81.1-8079-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-04 21:42:19.535 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2019-03-04 21:42:19.548 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2019-03-04 21:42:19.548 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalCommonAnnotationProcessor
+2019-03-04 21:42:19.549 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalPersistenceAnnotationProcessor
+2019-03-04 21:42:19.549 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.event.internalEventListenerProcessor
+2019-03-04 21:42:19.550 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.event.internalEventListenerFactory
+2019-03-04 21:42:19.555 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer3 : 18 ] - ****:6
+2019-03-04 21:42:19.564 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer : 18 ] - bean count:6
+2019-03-04 21:42:19.572 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 50 ] - Starting DemoApplication on LAPTOP-DKU2JHJT with PID 5564 (F:\IDEA_WorkSpace\demo\target\classes started by zhaoyue in F:\IDEA_WorkSpace\demo)
+2019-03-04 21:42:19.573 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 679 ] - The following profiles are active: dev
+2019-03-04 21:42:26.631 [ restartedMain ] - [ INFO  ] [ com.example.demo.tomcat.WebServerConfiguration : 26 ] - 自定义配置tomcat启用
+2019-03-04 21:42:27.112 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-192.168.81.1-8079"]
+2019-03-04 21:42:27.145 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-03-04 21:42:27.146 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-04 21:42:27.172 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\apache-maven-3.6.0\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;%CATALINA_HOME%\bin;%CATALINA_HOME%\lib;E:\nodeJs\安装目录\;E:\Git\cmd;F:\Redis\安装目录\;F:\MongoDB\bin;C:\Users\zhaoyue\AppData\Local\Microsoft\WindowsApps;;D:\IntelliJIDEA2018.3.4\IntelliJ IDEA 2018.3.4\bin;;C:\Users\zhaoyue\AppData\Roaming\npm;.]
+2019-03-04 21:42:27.865 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-03-04 21:42:29.568 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2019-03-04 21:42:29.983 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-04 21:42:30.292 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 46 ] - HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-04 21:42:30.296 [ restartedMain ] - [ INFO  ] [ org.hibernate.cfg.Environment : 213 ] - HHH000206: hibernate.properties not found
+2019-03-04 21:42:30.913 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 49 ] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-04 21:42:31.408 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 157 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-03-04 21:42:39.234 [ restartedMain ] - [ INFO  ] [ org.mongodb.driver.cluster : 71 ] - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-03-04 21:42:39.548 [ cluster-ClusterId{value='5c7d2b4f89487715bc306a31', description='null'}-localhost:27017 ] - [ INFO  ] [ org.mongodb.driver.connection : 71 ] - Opened connection [connectionId{localValue:1, serverValue:31}] to localhost:27017
+2019-03-04 21:42:39.556 [ cluster-ClusterId{value='5c7d2b4f89487715bc306a31', description='null'}-localhost:27017 ] - [ INFO  ] [ org.mongodb.driver.cluster : 71 ] - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5824930}
+2019-03-04 21:42:41.812 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-192.168.81.1-8079"]
+2019-03-04 21:42:41.854 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 59 ] - Started DemoApplication in 24.561 seconds (JVM running for 27.948)
+2019-03-04 21:42:41.859 [ restartedMain ] - [ INFO  ] [ c.e.demo.extendedanalysis.MyCommandLineRunner : 21 ] - 应用已启动
+2019-03-04 21:42:41.863 [ restartedMain ] - [ INFO  ] [ com.example.demo.event.MyEventHandle : 22 ] - MyEventHandle接收到事件：class com.example.demo.event.MyApplicationEvent
+2019-03-04 21:42:41.863 [ restartedMain ] - [ INFO  ] [ com.example.demo.event.MyApplicationListener : 19 ] - MyApplicationListener接收到事件：class com.example.demo.event.MyApplicationEvent
+2019-03-04 21:43:52.456 [ http-nio-192.168.81.1-8079-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-04 22:10:38.542 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2019-03-04 22:10:38.552 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2019-03-04 22:10:38.553 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalCommonAnnotationProcessor
+2019-03-04 22:10:38.553 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalPersistenceAnnotationProcessor
+2019-03-04 22:10:38.554 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.event.internalEventListenerProcessor
+2019-03-04 22:10:38.554 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.event.internalEventListenerFactory
+2019-03-04 22:10:38.558 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer3 : 18 ] - ****:6
+2019-03-04 22:10:38.566 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer : 18 ] - bean count:6
+2019-03-04 22:10:38.575 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 50 ] - Starting DemoApplication on LAPTOP-DKU2JHJT with PID 12928 (F:\IDEA_WorkSpace\demo\target\classes started by zhaoyue in F:\IDEA_WorkSpace\demo)
+2019-03-04 22:10:38.576 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 679 ] - The following profiles are active: dev
+2019-03-04 22:10:45.227 [ restartedMain ] - [ INFO  ] [ com.example.demo.tomcat.WebServerConfiguration : 26 ] - 自定义配置tomcat启用
+2019-03-04 22:10:45.825 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-192.168.81.1-8079"]
+2019-03-04 22:10:45.860 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-03-04 22:10:45.860 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-04 22:10:45.885 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\apache-maven-3.6.0\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;%CATALINA_HOME%\bin;%CATALINA_HOME%\lib;E:\nodeJs\安装目录\;E:\Git\cmd;F:\Redis\安装目录\;F:\MongoDB\bin;C:\Users\zhaoyue\AppData\Local\Microsoft\WindowsApps;;D:\IntelliJIDEA2018.3.4\IntelliJ IDEA 2018.3.4\bin;;C:\Users\zhaoyue\AppData\Roaming\npm;.]
+2019-03-04 22:10:46.482 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-03-04 22:10:48.377 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2019-03-04 22:10:48.816 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-04 22:10:49.134 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 46 ] - HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-04 22:10:49.139 [ restartedMain ] - [ INFO  ] [ org.hibernate.cfg.Environment : 213 ] - HHH000206: hibernate.properties not found
+2019-03-04 22:10:49.636 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 49 ] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-04 22:10:50.182 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 157 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-03-04 22:10:58.026 [ restartedMain ] - [ INFO  ] [ org.mongodb.driver.cluster : 71 ] - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-03-04 22:10:58.212 [ cluster-ClusterId{value='5c7d31f28948773280a7d5bf', description='null'}-localhost:27017 ] - [ INFO  ] [ org.mongodb.driver.connection : 71 ] - Opened connection [connectionId{localValue:1, serverValue:32}] to localhost:27017
+2019-03-04 22:10:58.222 [ cluster-ClusterId{value='5c7d31f28948773280a7d5bf', description='null'}-localhost:27017 ] - [ INFO  ] [ org.mongodb.driver.cluster : 71 ] - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7255656}
+2019-03-04 22:11:00.923 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-192.168.81.1-8079"]
+2019-03-04 22:11:00.971 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 59 ] - Started DemoApplication in 24.429 seconds (JVM running for 28.062)
+2019-03-04 22:11:00.978 [ restartedMain ] - [ INFO  ] [ c.e.demo.extendedanalysis.MyCommandLineRunner : 21 ] - 应用已启动
+2019-03-04 22:11:00.982 [ restartedMain ] - [ INFO  ] [ com.example.demo.event.MyEventHandle : 22 ] - MyEventHandle接收到事件：class com.example.demo.event.MyApplicationEvent
+2019-03-04 22:11:00.983 [ restartedMain ] - [ INFO  ] [ com.example.demo.event.MyApplicationListener : 19 ] - MyApplicationListener接收到事件：class com.example.demo.event.MyApplicationEvent
+2019-03-04 22:44:15.399 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2019-03-04 22:44:15.419 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2019-03-04 22:44:15.420 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalCommonAnnotationProcessor
+2019-03-04 22:44:15.420 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalPersistenceAnnotationProcessor
+2019-03-04 22:44:15.420 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.event.internalEventListenerProcessor
+2019-03-04 22:44:15.421 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.event.internalEventListenerFactory
+2019-03-04 22:44:15.424 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer3 : 18 ] - ****:6
+2019-03-04 22:44:15.432 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer : 18 ] - bean count:6
+2019-03-04 22:44:15.440 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 50 ] - Starting DemoApplication on LAPTOP-DKU2JHJT with PID 18152 (F:\IDEA_WorkSpace\demo\target\classes started by zhaoyue in F:\IDEA_WorkSpace\demo)
+2019-03-04 22:44:15.440 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 679 ] - The following profiles are active: dev
+2019-03-04 22:44:24.264 [ restartedMain ] - [ INFO  ] [ com.example.demo.tomcat.WebServerConfiguration : 26 ] - 自定义配置tomcat启用
+2019-03-04 22:44:24.768 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-192.168.81.1-8079"]
+2019-03-04 22:44:24.795 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-03-04 22:44:24.796 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-04 22:44:24.976 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\apache-maven-3.6.0\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;%CATALINA_HOME%\bin;%CATALINA_HOME%\lib;E:\nodeJs\安装目录\;E:\Git\cmd;F:\Redis\安装目录\;F:\MongoDB\bin;C:\Users\zhaoyue\AppData\Local\Microsoft\WindowsApps;;D:\IntelliJIDEA2018.3.4\IntelliJ IDEA 2018.3.4\bin;;C:\Users\zhaoyue\AppData\Roaming\npm;.]
+2019-03-04 22:44:25.549 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-03-04 22:44:27.200 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2019-03-04 22:44:27.671 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-04 22:44:27.983 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 46 ] - HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-04 22:44:27.986 [ restartedMain ] - [ INFO  ] [ org.hibernate.cfg.Environment : 213 ] - HHH000206: hibernate.properties not found
+2019-03-04 22:44:28.782 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 49 ] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-04 22:44:29.280 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 157 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-03-04 22:44:33.762 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-03-04 22:44:38.037 [ restartedMain ] - [ INFO  ] [ org.mongodb.driver.cluster : 71 ] - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-03-04 22:44:38.288 [ cluster-ClusterId{value='5c7d39d689487746e8f8e22b', description='null'}-localhost:27017 ] - [ INFO  ] [ org.mongodb.driver.connection : 71 ] - Opened connection [connectionId{localValue:1, serverValue:33}] to localhost:27017
+2019-03-04 22:44:38.299 [ cluster-ClusterId{value='5c7d39d689487746e8f8e22b', description='null'}-localhost:27017 ] - [ INFO  ] [ org.mongodb.driver.cluster : 71 ] - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7866438}
+2019-03-04 22:44:40.632 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 151 ] - Context refreshed
+2019-03-04 22:44:40.708 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 154 ] - Found 1 custom documentation plugin(s)
+2019-03-04 22:44:40.805 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2019-03-04 22:44:41.300 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-192.168.81.1-8079"]
+2019-03-04 22:44:41.352 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 59 ] - Started DemoApplication in 27.744 seconds (JVM running for 30.551)
+2019-03-04 22:44:41.360 [ restartedMain ] - [ INFO  ] [ c.e.demo.extendedanalysis.MyCommandLineRunner : 21 ] - 应用已启动
+2019-03-04 22:44:41.365 [ restartedMain ] - [ INFO  ] [ com.example.demo.event.MyEventHandle : 22 ] - MyEventHandle接收到事件：class com.example.demo.event.MyApplicationEvent
+2019-03-04 22:44:41.366 [ restartedMain ] - [ INFO  ] [ com.example.demo.event.MyApplicationListener : 19 ] - MyApplicationListener接收到事件：class com.example.demo.event.MyApplicationEvent
+2019-03-04 22:44:50.011 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:44:50:009
+2019-03-04 22:45:00.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:45:00:001
+2019-03-04 22:45:10.003 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:45:10:003
+2019-03-04 22:45:20.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:45:20:002
+2019-03-04 22:45:30.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:45:30:001
+2019-03-04 22:45:40.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:45:40:001
+2019-03-04 22:45:50.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:45:50:001
+2019-03-04 22:46:00.000 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:46:00:000
+2019-03-04 22:46:09.173 [ http-nio-192.168.81.1-8079-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-04 22:46:10.003 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:46:10:003
+2019-03-04 22:46:20.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:46:20:001
+2019-03-04 22:46:30.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:46:30:002
+2019-03-04 22:46:40.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:46:40:002
+2019-03-04 22:46:50.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:46:50:002
+2019-03-04 22:47:00.003 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:47:00:002
+2019-03-04 22:47:10.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:47:10:002
+2019-03-04 22:47:20.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:47:20:002
+2019-03-04 22:47:30.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:47:30:002
+2019-03-04 22:47:40.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:47:40:002
+2019-03-04 22:47:50.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:47:50:001
+2019-03-04 22:48:00.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:48:00:002
+2019-03-04 22:48:10.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:48:10:002
+2019-03-04 22:48:20.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:48:20:001
+2019-03-04 22:48:30.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:48:30:002
+2019-03-04 22:48:40.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:48:40:001
+2019-03-04 22:48:50.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:48:50:002
+2019-03-04 22:49:00.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:49:00:001
+2019-03-04 22:49:10.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:49:10:001
+2019-03-04 22:49:20.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:49:20:002
+2019-03-04 22:49:30.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:49:30:001
+2019-03-04 22:49:40.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:49:40:002
+2019-03-04 22:49:50.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:49:50:002
+2019-03-04 22:50:00.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:50:00:002
+2019-03-04 22:50:10.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:50:10:002
+2019-03-04 22:50:20.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:50:20:001
+2019-03-04 22:50:30.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:50:30:002
+2019-03-04 22:50:40.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:50:40:001
+2019-03-04 22:50:50.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:50:50:002
+2019-03-04 22:51:00.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:51:00:002
+2019-03-04 22:51:10.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:51:10:001
+2019-03-04 22:51:20.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:51:20:002
+2019-03-04 22:51:30.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:51:30:002
+2019-03-04 22:51:40.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:51:40:002
+2019-03-04 22:51:50.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:51:50:001
+2019-03-04 22:52:00.000 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:52:00:000
+2019-03-04 22:52:10.003 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:52:10:003
+2019-03-04 22:52:20.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:52:20:001
+2019-03-04 22:52:30.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:52:30:002
+2019-03-04 22:52:40.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:52:40:002
+2019-03-04 22:52:50.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:52:50:002
+2019-03-04 22:53:00.003 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:53:00:003
+2019-03-04 22:53:10.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:53:10:001
+2019-03-04 22:53:20.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:53:20:001
+2019-03-04 22:53:30.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:53:30:001
+2019-03-04 22:53:40.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:53:40:002
+2019-03-04 22:53:50.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:53:50:002
+2019-03-04 22:54:00.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:54:00:002
+2019-03-04 22:54:10.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:54:10:002
+2019-03-04 22:54:20.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:54:20:002
+2019-03-04 22:54:30.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:54:30:002
+2019-03-04 22:54:40.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:54:40:002
+2019-03-04 22:54:50.003 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:54:50:003
+2019-03-04 22:55:00.004 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:55:00:004
+2019-03-04 22:55:10.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:55:10:001
+2019-03-04 22:55:20.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:55:20:002
+2019-03-04 22:55:30.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:55:30:001
+2019-03-04 22:55:40.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:55:40:001
+2019-03-04 22:55:50.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:55:50:002
+2019-03-04 22:56:00.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:56:00:002
+2019-03-04 22:56:10.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:56:10:001
+2019-03-04 22:56:20.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:56:20:002
+2019-03-04 22:56:30.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:56:30:002
+2019-03-04 22:56:40.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:56:40:001
+2019-03-04 22:56:50.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:56:50:002
+2019-03-04 22:57:00.004 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:57:00:003
+2019-03-04 22:57:10.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:57:10:001
+2019-03-04 22:57:20.003 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:57:20:003
+2019-03-04 22:57:30.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:57:30:001
+2019-03-04 22:57:40.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:57:40:002
+2019-03-04 22:57:50.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:57:50:001
+2019-03-04 22:58:00.003 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:58:00:003
+2019-03-04 22:58:10.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:58:10:001
+2019-03-04 22:58:20.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:58:20:001
+2019-03-04 22:58:30.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:58:30:002
+2019-03-04 22:58:40.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:58:40:002
+2019-03-04 22:58:50.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:58:50:001
+2019-03-04 22:59:00.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:59:00:002
+2019-03-04 22:59:10.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:59:10:001
+2019-03-04 22:59:20.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:59:20:001
+2019-03-04 22:59:30.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:59:30:001
+2019-03-04 22:59:40.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:59:40:001
+2019-03-04 22:59:50.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 22:59:50:001
+2019-03-04 23:00:00.003 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 23:00:00:002
+2019-03-04 23:00:10.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 23:00:10:001
+2019-03-04 23:00:20.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 23:00:20:001
+2019-03-04 23:00:30.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 23:00:30:002
+2019-03-04 23:00:40.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 23:00:40:001
+2019-03-04 23:00:50.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 23:00:50:002
+2019-03-04 23:01:00.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 23:01:00:002
+2019-03-04 23:01:10.000 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 23:01:10:000
+2019-03-04 23:01:20.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 23:01:20:002
+2019-03-04 23:01:30.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 23:01:30:002
+2019-03-04 23:01:40.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 23:01:40:002
+2019-03-04 23:01:50.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 23:01:50:001
+2019-03-04 23:02:00.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 23:02:00:001
+2019-03-04 23:02:10.000 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 23:02:10:000
+2019-03-04 23:02:20.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 23:02:20:002
+2019-03-04 23:02:30.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 23:02:30:002
+2019-03-04 23:02:40.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 23:02:40:001
+2019-03-04 23:02:50.002 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 23:02:50:002
+2019-03-04 23:03:00.006 [ pool-2-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-04 23:03:00:005

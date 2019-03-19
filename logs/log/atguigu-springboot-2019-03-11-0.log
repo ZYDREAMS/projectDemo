@@ -1,0 +1,555 @@
+2019-03-11 15:49:50.931 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2019-03-11 15:49:50.956 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2019-03-11 15:49:50.958 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalCommonAnnotationProcessor
+2019-03-11 15:49:50.958 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalPersistenceAnnotationProcessor
+2019-03-11 15:49:50.960 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.event.internalEventListenerProcessor
+2019-03-11 15:49:50.961 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.event.internalEventListenerFactory
+2019-03-11 15:49:50.966 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer3 : 18 ] - ****:6
+2019-03-11 15:49:50.979 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer : 18 ] - bean count:6
+2019-03-11 15:49:50.990 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 50 ] - Starting DemoApplication on LAPTOP-DKU2JHJT with PID 9952 (F:\IDEA_WorkSpace\demo\target\classes started by zhaoyue in F:\IDEA_WorkSpace\demo)
+2019-03-11 15:49:50.991 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 679 ] - The following profiles are active: dev
+2019-03-11 15:50:06.873 [ restartedMain ] - [ INFO  ] [ com.example.demo.tomcat.WebServerConfiguration : 26 ] - 自定义配置tomcat启用
+2019-03-11 15:50:07.482 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-192.168.81.1-8079"]
+2019-03-11 15:50:07.525 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-03-11 15:50:07.526 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-11 15:50:07.551 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\apache-maven-3.6.0\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;%CATALINA_HOME%\bin;%CATALINA_HOME%\lib;E:\nodeJs\安装目录\;E:\Git\cmd;F:\Redis\安装目录\;F:\MongoDB\bin;E:\Erlang\erl6.2\bin;C:\Users\zhaoyue\AppData\Local\Microsoft\WindowsApps;D:\IntelliJIDEA2018.3.4\IntelliJ IDEA 2018.3.4\bin;C:\Users\zhaoyue\AppData\Roaming\npm;C:\Users\zhaoyue\AppData\Local\atom\bin;.]
+2019-03-11 15:50:08.239 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-03-11 15:50:10.539 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2019-03-11 15:50:11.163 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-11 15:50:11.375 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 46 ] - HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-11 15:50:11.377 [ restartedMain ] - [ INFO  ] [ org.hibernate.cfg.Environment : 213 ] - HHH000206: hibernate.properties not found
+2019-03-11 15:50:12.116 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 49 ] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-11 15:50:12.814 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 157 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-03-11 15:50:21.924 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-03-11 15:50:32.306 [ restartedMain ] - [ INFO  ] [ org.mongodb.driver.cluster : 71 ] - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-03-11 15:50:33.140 [ cluster-ClusterId{value='5c86134889487726e03013f2', description='null'}-localhost:27017 ] - [ INFO  ] [ org.mongodb.driver.connection : 71 ] - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2019-03-11 15:50:33.152 [ cluster-ClusterId{value='5c86134889487726e03013f2', description='null'}-localhost:27017 ] - [ INFO  ] [ org.mongodb.driver.cluster : 71 ] - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7419358}
+2019-03-11 15:50:36.669 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.clients.consumer.ConsumerConfig : 279 ] - ConsumerConfig values: 
+	auto.commit.interval.ms = 100
+	auto.offset.reset = earliest
+	bootstrap.servers = [192.168.244.132:9092, 192.168.244.133:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-03-11 15:50:36.966 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.common.utils.AppInfoParser : 109 ] - Kafka version : 2.0.1
+2019-03-11 15:50:36.967 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.common.utils.AppInfoParser : 110 ] - Kafka commitId : fa14705e51bd2ce5
+2019-03-11 15:50:37.590 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.clients.Metadata : 285 ] - Cluster ID: zNkx6bRzQJasvzD1gv9EAA
+2019-03-11 15:50:38.831 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.clients.consumer.ConsumerConfig : 279 ] - ConsumerConfig values: 
+	auto.commit.interval.ms = 100
+	auto.offset.reset = earliest
+	bootstrap.servers = [192.168.244.132:9092, 192.168.244.133:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-03-11 15:50:38.844 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.common.utils.AppInfoParser : 109 ] - Kafka version : 2.0.1
+2019-03-11 15:50:38.845 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.common.utils.AppInfoParser : 110 ] - Kafka commitId : fa14705e51bd2ce5
+2019-03-11 15:50:38.866 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 151 ] - Context refreshed
+2019-03-11 15:50:39.295 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ org.apache.kafka.clients.Metadata : 285 ] - Cluster ID: zNkx6bRzQJasvzD1gv9EAA
+2019-03-11 15:50:40.497 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 154 ] - Found 1 custom documentation plugin(s)
+2019-03-11 15:50:40.961 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2019-03-11 15:50:42.368 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-192.168.81.1-8079"]
+2019-03-11 15:50:43.145 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 59 ] - Started DemoApplication in 53.778 seconds (JVM running for 59.0)
+2019-03-11 15:50:43.151 [ restartedMain ] - [ INFO  ] [ c.e.demo.extendedanalysis.MyCommandLineRunner : 21 ] - 应用已启动
+2019-03-11 15:50:43.155 [ restartedMain ] - [ INFO  ] [ com.example.demo.event.MyEventHandle : 22 ] - MyEventHandle接收到事件：class com.example.demo.event.MyApplicationEvent
+2019-03-11 15:50:43.156 [ restartedMain ] - [ INFO  ] [ com.example.demo.event.MyApplicationListener : 19 ] - MyApplicationListener接收到事件：class com.example.demo.event.MyApplicationEvent
+2019-03-11 15:50:43.156 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 40 ] - 准备使用kafka
+2019-03-11 15:50:43.378 [ restartedMain ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaSender : 36 ] - +++++++++++++++++++++  message = {"id":1552290643210,"msg":"6acd4864-6cd7-498d-9cb6-bb2c653caf87","sendTime":"Mar 11, 2019 3:50:43 PM"}
+2019-03-11 15:50:43.482 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.clients.producer.ProducerConfig : 279 ] - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [192.168.244.132:9092, 192.168.244.133:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-03-11 15:50:43.544 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.common.utils.AppInfoParser : 109 ] - Kafka version : 2.0.1
+2019-03-11 15:50:43.545 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.common.utils.AppInfoParser : 110 ] - Kafka commitId : fa14705e51bd2ce5
+2019-03-11 15:50:50.029 [ pool-3-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-11 15:50:50:025
+2019-03-11 15:51:00.388 [ pool-3-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-11 15:51:00:388
+2019-03-11 15:51:10.001 [ pool-3-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-11 15:51:10:001
+2019-03-11 15:51:13.629 [ kafka-producer-network-thread | producer-1 ] - [ WARN  ] [ org.apache.kafka.clients.NetworkClient : 934 ] - [Producer clientId=producer-1] Bootstrap broker 192.168.244.133:9092 (id: -2 rack: null) disconnected
+2019-03-11 15:51:20.000 [ pool-3-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-11 15:51:20:000
+2019-03-11 15:51:20.256 [ kafka-producer-network-thread | producer-1 ] - [ WARN  ] [ org.apache.kafka.clients.NetworkClient : 968 ] - [Producer clientId=producer-1] Error while fetching metadata with correlation id 3 : {zhisheng=LEADER_NOT_AVAILABLE}
+2019-03-11 15:51:20.257 [ kafka-producer-network-thread | producer-1 ] - [ INFO  ] [ org.apache.kafka.clients.Metadata : 285 ] - Cluster ID: zNkx6bRzQJasvzD1gv9EAA
+2019-03-11 15:51:20.502 [ kafka-producer-network-thread | producer-1 ] - [ WARN  ] [ org.apache.kafka.clients.NetworkClient : 968 ] - [Producer clientId=producer-1] Error while fetching metadata with correlation id 5 : {zhisheng=LEADER_NOT_AVAILABLE}
+2019-03-11 15:51:20.767 [ kafka-producer-network-thread | producer-1 ] - [ WARN  ] [ org.apache.kafka.clients.NetworkClient : 968 ] - [Producer clientId=producer-1] Error while fetching metadata with correlation id 7 : {zhisheng=LEADER_NOT_AVAILABLE}
+2019-03-11 15:51:20.892 [ kafka-producer-network-thread | producer-1 ] - [ WARN  ] [ org.apache.kafka.clients.NetworkClient : 968 ] - [Producer clientId=producer-1] Error while fetching metadata with correlation id 8 : {zhisheng=LEADER_NOT_AVAILABLE}
+2019-03-11 15:51:23.024 [ kafka-producer-network-thread | producer-1 ] - [ WARN  ] [ org.apache.kafka.clients.NetworkClient : 968 ] - [Producer clientId=producer-1] Error while fetching metadata with correlation id 9 : {zhisheng=LEADER_NOT_AVAILABLE}
+2019-03-11 15:51:25.205 [ kafka-producer-network-thread | producer-1 ] - [ WARN  ] [ org.apache.kafka.clients.NetworkClient : 968 ] - [Producer clientId=producer-1] Error while fetching metadata with correlation id 10 : {zhisheng=UNKNOWN_SERVER_ERROR}
+2019-03-11 15:51:27.329 [ kafka-producer-network-thread | producer-1 ] - [ WARN  ] [ org.apache.kafka.clients.NetworkClient : 968 ] - [Producer clientId=producer-1] Error while fetching metadata with correlation id 11 : {zhisheng=LEADER_NOT_AVAILABLE}
+2019-03-11 15:51:28.986 [ kafka-producer-network-thread | producer-1 ] - [ WARN  ] [ org.apache.kafka.clients.NetworkClient : 968 ] - [Producer clientId=producer-1] Error while fetching metadata with correlation id 12 : {zhisheng=LEADER_NOT_AVAILABLE}
+2019-03-11 15:51:29.204 [ kafka-producer-network-thread | producer-1 ] - [ WARN  ] [ org.apache.kafka.clients.NetworkClient : 968 ] - [Producer clientId=producer-1] Error while fetching metadata with correlation id 13 : {zhisheng=LEADER_NOT_AVAILABLE}
+2019-03-11 15:51:29.497 [ kafka-producer-network-thread | producer-1 ] - [ WARN  ] [ org.apache.kafka.clients.NetworkClient : 968 ] - [Producer clientId=producer-1] Error while fetching metadata with correlation id 14 : {zhisheng=LEADER_NOT_AVAILABLE}
+2019-03-11 15:51:29.689 [ kafka-producer-network-thread | producer-1 ] - [ WARN  ] [ org.apache.kafka.clients.NetworkClient : 968 ] - [Producer clientId=producer-1] Error while fetching metadata with correlation id 15 : {zhisheng=LEADER_NOT_AVAILABLE}
+2019-03-11 15:51:30.002 [ pool-3-thread-1 ] - [ INFO  ] [ com.example.demo.scheduler.MyScheduler : 20 ] - OtherScheduler：2019-03-11 15:51:30:002
+2019-03-11 15:57:06.213 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2019-03-11 15:57:06.225 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2019-03-11 15:57:06.226 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalCommonAnnotationProcessor
+2019-03-11 15:57:06.227 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalPersistenceAnnotationProcessor
+2019-03-11 15:57:06.228 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.event.internalEventListenerProcessor
+2019-03-11 15:57:06.228 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.event.internalEventListenerFactory
+2019-03-11 15:57:06.233 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer3 : 18 ] - ****:6
+2019-03-11 15:57:06.242 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer : 18 ] - bean count:6
+2019-03-11 15:57:06.269 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 50 ] - Starting DemoApplication on LAPTOP-DKU2JHJT with PID 21296 (F:\IDEA_WorkSpace\demo\target\classes started by zhaoyue in F:\IDEA_WorkSpace\demo)
+2019-03-11 15:57:06.270 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 679 ] - The following profiles are active: dev
+2019-03-11 15:57:13.904 [ restartedMain ] - [ INFO  ] [ com.example.demo.tomcat.WebServerConfiguration : 26 ] - 自定义配置tomcat启用
+2019-03-11 15:57:14.415 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-192.168.81.1-8079"]
+2019-03-11 15:57:14.438 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-03-11 15:57:14.439 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-11 15:57:14.462 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\apache-maven-3.6.0\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;%CATALINA_HOME%\bin;%CATALINA_HOME%\lib;E:\nodeJs\安装目录\;E:\Git\cmd;F:\Redis\安装目录\;F:\MongoDB\bin;E:\Erlang\erl6.2\bin;C:\Users\zhaoyue\AppData\Local\Microsoft\WindowsApps;D:\IntelliJIDEA2018.3.4\IntelliJ IDEA 2018.3.4\bin;C:\Users\zhaoyue\AppData\Roaming\npm;C:\Users\zhaoyue\AppData\Local\atom\bin;.]
+2019-03-11 15:57:15.034 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-03-11 15:57:16.661 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2019-03-11 15:57:17.142 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-11 15:57:17.323 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 46 ] - HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-11 15:57:17.326 [ restartedMain ] - [ INFO  ] [ org.hibernate.cfg.Environment : 213 ] - HHH000206: hibernate.properties not found
+2019-03-11 15:57:17.928 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 49 ] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-11 15:57:18.370 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 157 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-03-11 15:57:22.669 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-03-11 15:57:26.813 [ restartedMain ] - [ INFO  ] [ org.mongodb.driver.cluster : 71 ] - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-03-11 15:57:26.936 [ cluster-ClusterId{value='5c8614e689487753305f9a86', description='null'}-localhost:27017 ] - [ INFO  ] [ org.mongodb.driver.connection : 71 ] - Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:27017
+2019-03-11 15:57:26.946 [ cluster-ClusterId{value='5c8614e689487753305f9a86', description='null'}-localhost:27017 ] - [ INFO  ] [ org.mongodb.driver.cluster : 71 ] - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6429214}
+2019-03-11 15:57:29.339 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.clients.consumer.ConsumerConfig : 279 ] - ConsumerConfig values: 
+	auto.commit.interval.ms = 100
+	auto.offset.reset = earliest
+	bootstrap.servers = [192.168.244.132:9092, 192.168.244.133:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-03-11 15:57:29.511 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.common.utils.AppInfoParser : 109 ] - Kafka version : 2.0.1
+2019-03-11 15:57:29.512 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.common.utils.AppInfoParser : 110 ] - Kafka commitId : fa14705e51bd2ce5
+2019-03-11 15:57:29.908 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.clients.Metadata : 285 ] - Cluster ID: zNkx6bRzQJasvzD1gv9EAA
+2019-03-11 15:57:29.941 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.clients.consumer.ConsumerConfig : 279 ] - ConsumerConfig values: 
+	auto.commit.interval.ms = 100
+	auto.offset.reset = earliest
+	bootstrap.servers = [192.168.244.132:9092, 192.168.244.133:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-03-11 15:57:29.951 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.common.utils.AppInfoParser : 109 ] - Kafka version : 2.0.1
+2019-03-11 15:57:29.952 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.common.utils.AppInfoParser : 110 ] - Kafka commitId : fa14705e51bd2ce5
+2019-03-11 15:57:29.970 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 151 ] - Context refreshed
+2019-03-11 15:57:29.985 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ org.apache.kafka.clients.Metadata : 285 ] - Cluster ID: zNkx6bRzQJasvzD1gv9EAA
+2019-03-11 15:57:29.986 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ o.a.k.c.consumer.internals.AbstractCoordinator : 677 ] - [Consumer clientId=consumer-2, groupId=test-consumer-group] Discovered group coordinator 192.168.244.133:9092 (id: 2147483514 rack: null)
+2019-03-11 15:57:29.995 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ o.a.k.c.consumer.internals.ConsumerCoordinator : 472 ] - [Consumer clientId=consumer-2, groupId=test-consumer-group] Revoking previously assigned partitions []
+2019-03-11 15:57:29.997 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ o.a.k.c.consumer.internals.AbstractCoordinator : 509 ] - [Consumer clientId=consumer-2, groupId=test-consumer-group] (Re-)joining group
+2019-03-11 15:57:30.057 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 154 ] - Found 1 custom documentation plugin(s)
+2019-03-11 15:57:30.166 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2019-03-11 15:57:30.520 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ o.a.k.c.consumer.internals.AbstractCoordinator : 473 ] - [Consumer clientId=consumer-2, groupId=test-consumer-group] Successfully joined group with generation 1
+2019-03-11 15:57:30.525 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ o.a.k.c.consumer.internals.ConsumerCoordinator : 280 ] - [Consumer clientId=consumer-2, groupId=test-consumer-group] Setting newly assigned partitions [zhaoyue-0]
+2019-03-11 15:57:30.557 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ o.apache.kafka.clients.consumer.internals.Fetcher : 601 ] - [Consumer clientId=consumer-2, groupId=test-consumer-group] Resetting offset for partition zhaoyue-0 to offset 0.
+2019-03-11 15:57:30.698 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-192.168.81.1-8079"]
+2019-03-11 15:57:30.784 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 59 ] - Started DemoApplication in 25.995 seconds (JVM running for 28.582)
+2019-03-11 15:57:30.793 [ restartedMain ] - [ INFO  ] [ c.e.demo.extendedanalysis.MyCommandLineRunner : 21 ] - 应用已启动
+2019-03-11 15:57:30.797 [ restartedMain ] - [ INFO  ] [ com.example.demo.event.MyEventHandle : 22 ] - MyEventHandle接收到事件：class com.example.demo.event.MyApplicationEvent
+2019-03-11 15:57:30.798 [ restartedMain ] - [ INFO  ] [ com.example.demo.event.MyApplicationListener : 19 ] - MyApplicationListener接收到事件：class com.example.demo.event.MyApplicationEvent
+2019-03-11 15:57:30.798 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 40 ] - 准备使用kafka
+2019-03-11 15:57:30.808 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 0, CreateTime = 1551944065754, serialized key size = -1, serialized value size = 0, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = )
+2019-03-11 15:57:30.809 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message =
+2019-03-11 15:57:30.809 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 1, CreateTime = 1551944517304, serialized key size = -1, serialized value size = 0, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = )
+2019-03-11 15:57:30.810 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message =
+2019-03-11 15:57:30.810 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 2, CreateTime = 1551944725836, serialized key size = -1, serialized value size = 0, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = )
+2019-03-11 15:57:30.810 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message =
+2019-03-11 15:57:30.811 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 3, CreateTime = 1551944885364, serialized key size = -1, serialized value size = 7, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = zhaoyue)
+2019-03-11 15:57:30.811 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message =zhaoyue
+2019-03-11 15:57:30.812 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 4, CreateTime = 1551944942057, serialized key size = -1, serialized value size = 1, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = ;)
+2019-03-11 15:57:30.812 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message =;
+2019-03-11 15:57:30.813 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 5, CreateTime = 1551945640673, serialized key size = -1, serialized value size = 0, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = )
+2019-03-11 15:57:30.813 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message =
+2019-03-11 15:57:30.813 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 6, CreateTime = 1551945774417, serialized key size = -1, serialized value size = 4, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = ping)
+2019-03-11 15:57:30.814 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message =ping
+2019-03-11 15:57:30.814 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 7, CreateTime = 1551945818916, serialized key size = -1, serialized value size = 4, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = ssff)
+2019-03-11 15:57:30.815 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message =ssff
+2019-03-11 15:57:30.815 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 8, CreateTime = 1552008131182, serialized key size = -1, serialized value size = 7, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = zhaoyue)
+2019-03-11 15:57:30.815 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message =zhaoyue
+2019-03-11 15:57:30.816 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 9, CreateTime = 1552008334230, serialized key size = -1, serialized value size = 5, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = dfggg)
+2019-03-11 15:57:30.817 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message =dfggg
+2019-03-11 15:57:30.817 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 10, CreateTime = 1552008603534, serialized key size = -1, serialized value size = 5, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = ssffg)
+2019-03-11 15:57:30.818 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message =ssffg
+2019-03-11 15:57:30.818 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 11, CreateTime = 1552273527138, serialized key size = -1, serialized value size = 4, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = zfff)
+2019-03-11 15:57:30.819 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message =zfff
+2019-03-11 15:57:30.819 [ restartedMain ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaSender : 36 ] - +++++++++++++++++++++  message = {"id":1552291050802,"msg":"50db3c66-e51c-4463-97b9-69d681df3738","sendTime":"Mar 11, 2019 3:57:30 PM"}
+2019-03-11 15:57:30.819 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 12, CreateTime = 1552274053266, serialized key size = -1, serialized value size = 6, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = hhjjkj)
+2019-03-11 15:57:30.820 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message =hhjjkj
+2019-03-11 15:57:30.820 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 13, CreateTime = 1552285549898, serialized key size = -1, serialized value size = 5, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = dfjhj)
+2019-03-11 15:57:30.821 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message =dfjhj
+2019-03-11 15:57:30.821 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 14, CreateTime = 1552285592978, serialized key size = -1, serialized value size = 4, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = ffff)
+2019-03-11 15:57:30.822 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message =ffff
+2019-03-11 15:57:30.823 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 15, CreateTime = 1552285620275, serialized key size = -1, serialized value size = 2, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = ad)
+2019-03-11 15:57:30.824 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message =ad
+2019-03-11 15:57:30.837 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.clients.producer.ProducerConfig : 279 ] - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [192.168.244.132:9092, 192.168.244.133:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-03-11 15:57:30.878 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.common.utils.AppInfoParser : 109 ] - Kafka version : 2.0.1
+2019-03-11 15:57:30.878 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.common.utils.AppInfoParser : 110 ] - Kafka commitId : fa14705e51bd2ce5
+2019-03-11 15:57:30.897 [ kafka-producer-network-thread | producer-1 ] - [ INFO  ] [ org.apache.kafka.clients.Metadata : 285 ] - Cluster ID: zNkx6bRzQJasvzD1gv9EAA
+2019-03-11 15:57:30.982 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 16, CreateTime = 1552291050899, serialized key size = -1, serialized value size = 102, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = {"id":1552291050802,"msg":"50db3c66-e51c-4463-97b9-69d681df3738","sendTime":"Mar 11, 2019 3:57:30 PM"})
+2019-03-11 15:57:30.982 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message ={"id":1552291050802,"msg":"50db3c66-e51c-4463-97b9-69d681df3738","sendTime":"Mar 11, 2019 3:57:30 PM"}
+2019-03-11 15:57:31.419 [ restartedMain ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaSender : 36 ] - +++++++++++++++++++++  message = {"id":1552291051419,"msg":"917920db-aec5-4186-9f5b-de1d8ba51c33","sendTime":"Mar 11, 2019 3:57:31 PM"}
+2019-03-11 15:57:31.434 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 17, CreateTime = 1552291051419, serialized key size = -1, serialized value size = 102, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = {"id":1552291051419,"msg":"917920db-aec5-4186-9f5b-de1d8ba51c33","sendTime":"Mar 11, 2019 3:57:31 PM"})
+2019-03-11 15:57:31.435 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message ={"id":1552291051419,"msg":"917920db-aec5-4186-9f5b-de1d8ba51c33","sendTime":"Mar 11, 2019 3:57:31 PM"}
+2019-03-11 15:57:31.921 [ restartedMain ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaSender : 36 ] - +++++++++++++++++++++  message = {"id":1552291051921,"msg":"0ca835c4-41b9-4554-be53-d7576ccf18e5","sendTime":"Mar 11, 2019 3:57:31 PM"}
+2019-03-11 15:57:32.422 [ restartedMain ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaSender : 36 ] - +++++++++++++++++++++  message = {"id":1552291052422,"msg":"8b10abdd-7b64-4011-a7c3-48d0e2ac67fe","sendTime":"Mar 11, 2019 3:57:32 PM"}
+2019-03-11 15:57:32.924 [ restartedMain ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaSender : 36 ] - +++++++++++++++++++++  message = {"id":1552291052924,"msg":"8a23a3db-ad0b-481f-9ecc-314a25594526","sendTime":"Mar 11, 2019 3:57:32 PM"}
+2019-03-11 15:57:35.149 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 18, CreateTime = 1552291051922, serialized key size = -1, serialized value size = 102, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = {"id":1552291051921,"msg":"0ca835c4-41b9-4554-be53-d7576ccf18e5","sendTime":"Mar 11, 2019 3:57:31 PM"})
+2019-03-11 15:57:35.149 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message ={"id":1552291051921,"msg":"0ca835c4-41b9-4554-be53-d7576ccf18e5","sendTime":"Mar 11, 2019 3:57:31 PM"}
+2019-03-11 15:57:35.150 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 19, CreateTime = 1552291052423, serialized key size = -1, serialized value size = 102, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = {"id":1552291052422,"msg":"8b10abdd-7b64-4011-a7c3-48d0e2ac67fe","sendTime":"Mar 11, 2019 3:57:32 PM"})
+2019-03-11 15:57:35.150 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message ={"id":1552291052422,"msg":"8b10abdd-7b64-4011-a7c3-48d0e2ac67fe","sendTime":"Mar 11, 2019 3:57:32 PM"}
+2019-03-11 15:57:35.156 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 28 ] - ----------------- record =ConsumerRecord(topic = zhaoyue, partition = 0, offset = 20, CreateTime = 1552291052925, serialized key size = -1, serialized value size = 102, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = {"id":1552291052924,"msg":"8a23a3db-ad0b-481f-9ecc-314a25594526","sendTime":"Mar 11, 2019 3:57:32 PM"})
+2019-03-11 15:57:35.156 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.example.demo.kafka.kafkaService.KafkaReceiver : 29 ] - ------------------ message ={"id":1552291052924,"msg":"8a23a3db-ad0b-481f-9ecc-314a25594526","sendTime":"Mar 11, 2019 3:57:32 PM"}

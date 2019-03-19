@@ -1,0 +1,97 @@
+2019-03-14 22:37:57.591 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2019-03-14 22:37:57.617 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2019-03-14 22:37:57.618 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalCommonAnnotationProcessor
+2019-03-14 22:37:57.618 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.annotation.internalPersistenceAnnotationProcessor
+2019-03-14 22:37:57.619 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.event.internalEventListenerProcessor
+2019-03-14 22:37:57.620 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer2 : 19 ] - bean name is:org.springframework.context.event.internalEventListenerFactory
+2019-03-14 22:37:57.626 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer3 : 18 ] - ****:6
+2019-03-14 22:37:57.652 [ restartedMain ] - [ INFO  ] [ c.e.d.e.MyApplicationContextInitializer : 18 ] - bean count:6
+2019-03-14 22:37:57.663 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 50 ] - Starting DemoApplication on LAPTOP-DKU2JHJT with PID 15016 (F:\IDEA_WorkSpace\demo\target\classes started by zhaoyue in F:\IDEA_WorkSpace\demo)
+2019-03-14 22:37:57.664 [ restartedMain ] - [ INFO  ] [ com.example.demo.DemoApplication : 679 ] - The following profiles are active: dev
+2019-03-14 22:38:09.281 [ restartedMain ] - [ INFO  ] [ com.example.demo.tomcat.WebServerConfiguration : 26 ] - 自定义配置tomcat启用
+2019-03-14 22:38:10.072 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-192.168.81.1-8079"]
+2019-03-14 22:38:10.095 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-03-14 22:38:10.095 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-14 22:38:10.118 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\apache-maven-3.6.0\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;%CATALINA_HOME%\bin;%CATALINA_HOME%\lib;E:\nodeJs\安装目录\;E:\Git\cmd;F:\Redis\安装目录\;F:\MongoDB\bin;E:\Erlang\erl6.2\bin;C:\Users\zhaoyue\AppData\Local\Microsoft\WindowsApps;D:\IntelliJIDEA2018.3.4\IntelliJ IDEA 2018.3.4\bin;C:\Users\zhaoyue\AppData\Roaming\npm;C:\Users\zhaoyue\AppData\Local\atom\bin;.]
+2019-03-14 22:38:10.676 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-03-14 22:38:12.704 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2019-03-14 22:38:13.251 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-14 22:38:13.450 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 46 ] - HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-14 22:38:13.453 [ restartedMain ] - [ INFO  ] [ org.hibernate.cfg.Environment : 213 ] - HHH000206: hibernate.properties not found
+2019-03-14 22:38:14.078 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 49 ] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-14 22:38:14.747 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 157 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-03-14 22:38:20.088 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-03-14 22:38:26.121 [ restartedMain ] - [ INFO  ] [ org.mongodb.driver.cluster : 71 ] - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-03-14 22:38:26.607 [ cluster-ClusterId{value='5c8a67618948773aa89490c3', description='null'}-localhost:27017 ] - [ INFO  ] [ org.mongodb.driver.connection : 71 ] - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2019-03-14 22:38:26.633 [ cluster-ClusterId{value='5c8a67618948773aa89490c3', description='null'}-localhost:27017 ] - [ INFO  ] [ org.mongodb.driver.cluster : 71 ] - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5589797}
+2019-03-14 22:38:29.742 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.clients.consumer.ConsumerConfig : 279 ] - ConsumerConfig values: 
+	auto.commit.interval.ms = 100
+	auto.offset.reset = earliest
+	bootstrap.servers = [192.168.244.132:9092, 192.168.244.133:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-03-14 22:38:30.110 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.common.utils.AppInfoParser : 109 ] - Kafka version : 2.0.1
+2019-03-14 22:38:30.110 [ restartedMain ] - [ INFO  ] [ org.apache.kafka.common.utils.AppInfoParser : 110 ] - Kafka commitId : fa14705e51bd2ce5

@@ -1,0 +1,4 @@
+#使用lettuce连接redis
+spring.redis.cluster.nodes=127.0.0.1:6380
+spring.redis.cluster.timeout=1000
+spring.redis.cluster.max-redirects=3

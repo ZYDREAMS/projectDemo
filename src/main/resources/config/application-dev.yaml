@@ -1,0 +1,36 @@
+#Spring Boot默认采用tomcat-jdbc连接池，
+#如果需要C3P0，DBCP，Druid等作为连接池，
+#需要加入相关依赖以及配置，这里不作说明，采用默认配置即可。
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhsot:3306/metadata_zyy
+#    username: root
+#    password: zy6210
+#    type: com.alibaba.druid.pool.DruidDataSource
+
+
+
+
+#整合redis单机版，使用redis作为缓存
+spring:
+  redis:
+       host: 127.0.0.1
+       database: 0
+       port: 6379
+       password: zy6210
+       timeout: 36600
+
+#配置文件中定制tomcat（也可在代码中定制，springboot1.x提供了一个接口EmbeddedServer接口,
+#springboot2.x提供了WebServerFactoryCustomizer.可以在引入的jar包spring-boot-autoconfigure中web下ServerProperties中查看配置项
+server:
+     port: 9999
+     #配置此地址后，，就不能再使用127.0.0.1
+     address: 192.168.81.1
+     tomcat:
+          accesslog:
+               enabled: true
+
+  #配置日志文件
+logging:
+  config: classpath:log/logback.xml
